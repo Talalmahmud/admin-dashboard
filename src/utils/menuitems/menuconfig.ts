@@ -1,24 +1,20 @@
 import {
-  Home,
-  Users,
-  Settings,
-  FolderKanban,
-  FileText,
-  Trees,
-  LoaderPinwheel,
-  ChartColumnBig,
   AlertCircle,
-  Package,
-  Cpu,
-  Wrench,
-  Info,
-  Settings2,
-  Cog,
-  Layers,
-  Box,
-  Shield,
-  Key,
   Bell,
+  ChartColumnBig,
+  Cog,
+  Cpu,
+  Home,
+  Info,
+  Key,
+  LoaderPinwheel,
+  Package,
+  Settings,
+  Settings2,
+  Shield,
+  Trees,
+  Users,
+  Wrench,
 } from 'lucide-react';
 
 export const menuItems = [
@@ -62,11 +58,6 @@ export const menuItems = [
     icon: Trees,
     href: '/admin/branches',
   },
-  {
-    title: 'Complaints',
-    icon: AlertCircle,
-    href: '/admin/complaints',
-  },
 
   // Machinery & Maintenance
   {
@@ -78,6 +69,12 @@ export const menuItems = [
     title: 'Machine Maintenance',
     icon: Wrench,
     href: '/admin/machine-maintenance',
+  },
+
+  {
+    title: 'Complaints',
+    icon: AlertCircle,
+    href: '/admin/complaints',
   },
 
   // Settings with submenu
